@@ -1,0 +1,39 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    position_controller:
+      type: position_controllers/JointGroupPositionController
+      joints:
+       - motor_joint
+       - trans1_joint
+       - trans2_joint
+       - des1_joint
+       - des2_joint
+       - var1_joint
+       - var2_joint
+       - var3_joint
+       - var4_joint
+       - var5_joint
+       - var6_joint
+       - var7_joint
+       - var8_joint
+       - vari1_joint
+       - vari2_joint
+       - vari3_joint
+       - vari4_joint
+       - vari5_joint
+       - vari6_joint
+       - vari7_joint
+       - vari8_joint
+       - pan_joint
+       - tilt_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+

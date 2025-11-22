@@ -1,0 +1,89 @@
+[1.176s] Invoking command in '/home/everd/faberws/src/medusa': PYTHONPATH=/home/everd/faberws/src/build/medusa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/src/install/medusa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/medusa build --build-base /home/everd/faberws/src/build/medusa/build install --record /home/everd/faberws/src/build/medusa/install.log --single-version-externally-managed install_data
+[1.617s] running egg_info
+[1.618s] creating ../build/medusa/medusa.egg-info
+[1.619s] writing ../build/medusa/medusa.egg-info/PKG-INFO
+[1.619s] writing dependency_links to ../build/medusa/medusa.egg-info/dependency_links.txt
+[1.619s] writing entry points to ../build/medusa/medusa.egg-info/entry_points.txt
+[1.620s] writing requirements to ../build/medusa/medusa.egg-info/requires.txt
+[1.620s] writing top-level names to ../build/medusa/medusa.egg-info/top_level.txt
+[1.620s] writing manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'
+[1.625s] reading manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'
+[1.626s] writing manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'
+[1.626s] running build
+[1.626s] running build_py
+[1.627s] creating /home/everd/faberws/src/build/medusa/build
+[1.627s] creating /home/everd/faberws/src/build/medusa/build/lib
+[1.628s] creating /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.628s] copying medusa/esp32_imu_bridge.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.642s] copying medusa/mando.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.642s] copying medusa/control.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.643s] copying medusa/gui.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.644s] copying medusa/__init__.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.645s] copying medusa/serial_IMU.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa
+[1.645s] running install
+[1.646s] running install_lib
+[1.648s] creating /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.648s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/esp32_imu_bridge.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.648s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/mando.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.652s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/control.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.652s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/gui.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.652s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/__init__.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.652s] copying /home/everd/faberws/src/build/medusa/build/lib/medusa/serial_IMU.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa
+[1.652s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/esp32_imu_bridge.py to esp32_imu_bridge.cpython-310.pyc
+[1.654s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/mando.py to mando.cpython-310.pyc
+[1.656s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/control.py to control.cpython-310.pyc
+[1.657s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/gui.py to gui.cpython-310.pyc
+[1.658s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/__init__.py to __init__.cpython-310.pyc
+[1.659s] byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/serial_IMU.py to serial_IMU.cpython-310.pyc
+[1.659s] running install_data
+[1.660s] creating /home/everd/faberws/src/install/medusa/share/ament_index
+[1.660s] creating /home/everd/faberws/src/install/medusa/share/ament_index/resource_index
+[1.660s] creating /home/everd/faberws/src/install/medusa/share/ament_index/resource_index/packages
+[1.660s] copying resource/medusa -> /home/everd/faberws/src/install/medusa/share/ament_index/resource_index/packages
+[1.660s] copying package.xml -> /home/everd/faberws/src/install/medusa/share/medusa
+[1.661s] creating /home/everd/faberws/src/install/medusa/share/medusa/launch
+[1.661s] copying launch/rviz.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch
+[1.661s] copying launch/gazebo.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch
+[1.662s] copying launch/view.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch
+[1.663s] creating /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.663s] copying meshes/vari6_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.664s] copying meshes/var3_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.664s] copying meshes/base_link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.668s] copying meshes/vari3_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.668s] copying meshes/var7_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.669s] copying meshes/vari8_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.670s] copying meshes/vari2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.671s] copying meshes/var6_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.671s] copying meshes/vari5_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.672s] copying meshes/var2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.673s] copying meshes/vari7_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.674s] copying meshes/des2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.675s] copying meshes/var8_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.676s] copying meshes/var1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.677s] copying meshes/pan_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.679s] copying meshes/var4_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.680s] copying meshes/tilt_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.682s] copying meshes/var5_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.682s] copying meshes/des1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.684s] copying meshes/motor_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.685s] copying meshes/vari4_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.686s] copying meshes/vari1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.687s] copying meshes/trans2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.692s] copying meshes/trans1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes
+[1.698s] creating /home/everd/faberws/src/install/medusa/share/medusa/urdf
+[1.698s] copying urdf/control_gazebo.xacro -> /home/everd/faberws/src/install/medusa/share/medusa/urdf
+[1.699s] copying urdf/Medusa_Final_2027.csv -> /home/everd/faberws/src/install/medusa/share/medusa/urdf
+[1.700s] copying urdf/Medusa.urdf -> /home/everd/faberws/src/install/medusa/share/medusa/urdf
+[1.700s] copying urdf/medusa.xacro -> /home/everd/faberws/src/install/medusa/share/medusa/urdf
+[1.702s] creating /home/everd/faberws/src/install/medusa/share/medusa/config
+[1.702s] copying config/controller.yaml -> /home/everd/faberws/src/install/medusa/share/medusa/config
+[1.702s] running install_egg_info
+[1.706s] Copying ../build/medusa/medusa.egg-info to /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info
+[1.707s] running install_scripts
+[1.741s] Installing control script to /home/everd/faberws/src/install/medusa/lib/medusa
+[1.741s] Installing esp32_imu_bridge script to /home/everd/faberws/src/install/medusa/lib/medusa
+[1.742s] Installing gui script to /home/everd/faberws/src/install/medusa/lib/medusa
+[1.742s] Installing mando script to /home/everd/faberws/src/install/medusa/lib/medusa
+[1.742s] Installing serial_IMU script to /home/everd/faberws/src/install/medusa/lib/medusa
+[1.742s] writing list of installed files to '/home/everd/faberws/src/build/medusa/install.log'
+[1.779s] Invoked command in '/home/everd/faberws/src/medusa' returned '0': PYTHONPATH=/home/everd/faberws/src/build/medusa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/src/install/medusa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/medusa build --build-base /home/everd/faberws/src/build/medusa/build install --record /home/everd/faberws/src/build/medusa/install.log --single-version-externally-managed install_data

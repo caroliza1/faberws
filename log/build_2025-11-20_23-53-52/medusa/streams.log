@@ -1,0 +1,23 @@
+[0.962s] Invoking command in '/home/everd/faberws/src/medusa': PYTHONPATH=/home/everd/faberws/build/medusa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/install/medusa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/medusa build --build-base /home/everd/faberws/build/medusa/build install --record /home/everd/faberws/build/medusa/install.log --single-version-externally-managed install_data
+[1.328s] running egg_info
+[1.329s] writing ../../build/medusa/medusa.egg-info/PKG-INFO
+[1.329s] writing dependency_links to ../../build/medusa/medusa.egg-info/dependency_links.txt
+[1.329s] writing entry points to ../../build/medusa/medusa.egg-info/entry_points.txt
+[1.329s] writing requirements to ../../build/medusa/medusa.egg-info/requires.txt
+[1.329s] writing top-level names to ../../build/medusa/medusa.egg-info/top_level.txt
+[1.332s] reading manifest file '../../build/medusa/medusa.egg-info/SOURCES.txt'
+[1.334s] writing manifest file '../../build/medusa/medusa.egg-info/SOURCES.txt'
+[1.334s] running build
+[1.335s] running build_py
+[1.335s] running install
+[1.335s] running install_lib
+[1.337s] running install_data
+[1.337s] copying package.xml -> /home/everd/faberws/install/medusa/share/medusa
+[1.338s] copying launch/rviz.launch.py -> /home/everd/faberws/install/medusa/share/medusa/launch
+[1.338s] copying launch/view.launch.py -> /home/everd/faberws/install/medusa/share/medusa/launch
+[1.340s] running install_egg_info
+[1.342s] removing '/home/everd/faberws/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info' (and everything under it)
+[1.343s] Copying ../../build/medusa/medusa.egg-info to /home/everd/faberws/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info
+[1.344s] running install_scripts
+[1.375s] writing list of installed files to '/home/everd/faberws/build/medusa/install.log'
+[1.405s] Invoked command in '/home/everd/faberws/src/medusa' returned '0': PYTHONPATH=/home/everd/faberws/build/medusa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/install/medusa/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/medusa build --build-base /home/everd/faberws/build/medusa/build install --record /home/everd/faberws/build/medusa/install.log --single-version-externally-managed install_data

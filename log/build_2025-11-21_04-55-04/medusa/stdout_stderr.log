@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/medusa/medusa.egg-info/PKG-INFO
+writing dependency_links to ../../build/medusa/medusa.egg-info/dependency_links.txt
+writing entry points to ../../build/medusa/medusa.egg-info/entry_points.txt
+writing requirements to ../../build/medusa/medusa.egg-info/requires.txt
+writing top-level names to ../../build/medusa/medusa.egg-info/top_level.txt
+reading manifest file '../../build/medusa/medusa.egg-info/SOURCES.txt'
+writing manifest file '../../build/medusa/medusa.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/Medusa.xacro -> /home/everd/faberws/install/medusa/share/medusa/urdf
+copying urdf/medusa.xacro -> /home/everd/faberws/install/medusa/share/medusa/urdf
+running install_egg_info
+removing '/home/everd/faberws/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/medusa/medusa.egg-info to /home/everd/faberws/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/everd/faberws/install/medusa/lib/medusa
+Installing gui script to /home/everd/faberws/install/medusa/lib/medusa
+Installing mando script to /home/everd/faberws/install/medusa/lib/medusa
+writing list of installed files to '/home/everd/faberws/build/medusa/install.log'

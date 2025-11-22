@@ -1,0 +1,7 @@
+[console_scripts]
+control = medusa.control:main
+esp32_imu_bridge = medusa.esp32_imu_bridge:main
+gui = medusa.gui:main
+mando = medusa.mando:main
+serial_IMU = medusa.serial_IMU:main
+

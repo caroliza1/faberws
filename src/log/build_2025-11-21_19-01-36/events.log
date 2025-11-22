@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (medusa) JobQueued: {'identifier': 'medusa', 'dependencies': OrderedDict()}
+[0.000537] (medusa) JobStarted: {'identifier': 'medusa'}
+[0.099702] (-) TimerEvent: {}
+[0.200821] (-) TimerEvent: {}
+[0.324819] (-) TimerEvent: {}
+[0.436818] (-) TimerEvent: {}
+[0.537502] (-) TimerEvent: {}
+[0.643841] (-) TimerEvent: {}
+[0.748889] (-) TimerEvent: {}
+[0.921995] (-) TimerEvent: {}
+[1.034802] (-) TimerEvent: {}
+[1.172411] (medusa) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/medusa', 'build', '--build-base', '/home/everd/faberws/src/build/medusa/build', 'install', '--record', '/home/everd/faberws/src/build/medusa/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/everd/faberws/src/medusa', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'everd', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/everd', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2112', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f2f6a8dcb28cc3b8f84e56d86920f0c8', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/everd/hyper_teleop_ws/install:/home/everd/teleop_ws/install:/home/everd/new/install:/home/everd/lab_ws/install:/home/everd/universidad/robotica/turtle_ws/install:/home/everd/ros2_ws/install:/home/everd/universidad/git/Robotica-UAO-2025-3/centauro_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'everd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'everd', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/everd/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ever-VirtualBox:@/tmp/.ICE-unix/2112,unix/Ever-VirtualBox:/tmp/.ICE-unix/2112', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ef07b92f_84b2_4166_9c07_429f05b570bb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KP7TG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/everd/universidad/git/Robotica-UAO-2025-3/centauro_ws/install/robot:/home/everd/hyper_teleop_ws/install/hyper_teleop:/home/everd/teleop_ws/install/lab_teleop_diff:/home/everd/new/install/mi_br:/home/everd/lab_ws/install/el_arduino:/home/everd/lab_ws/install/arduinobot_description:/home/everd/universidad/robotica/turtle_ws/install/learning_tf2:/home/everd/ros2_ws/install/py_srvcli:/home/everd/ros2_ws/install/py_pubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/everd/faberws/src/build/medusa', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f2f6a8dcb28cc3b8f84e56d86920f0c8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/everd/faberws/src/build/medusa/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/src/install/medusa/lib/python3.10/site-packages:/home/everd/universidad/git/Robotica-UAO-2025-3/centauro_ws/install/robot/lib/python3.10/site-packages:/home/everd/hyper_teleop_ws/install/hyper_teleop/lib/python3.10/site-packages:/home/everd/teleop_ws/install/lab_teleop_diff/lib/python3.10/site-packages:/home/everd/new/install/mi_br/lib/python3.10/site-packages:/home/everd/lab_ws/install/el_arduino/lib/python3.10/site-packages:/home/everd/universidad/robotica/turtle_ws/install/learning_tf2/lib/python3.10/site-packages:/home/everd/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/everd/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/everd/lab_ws/install/arduinobot_description'}, 'shell': False}
+[1.177086] (-) TimerEvent: {}
+[1.278096] (-) TimerEvent: {}
+[1.421465] (-) TimerEvent: {}
+[1.542838] (-) TimerEvent: {}
+[1.617638] (medusa) StdoutLine: {'line': b'running egg_info\n'}
+[1.618703] (medusa) StdoutLine: {'line': b'creating ../build/medusa/medusa.egg-info\n'}
+[1.619256] (medusa) StdoutLine: {'line': b'writing ../build/medusa/medusa.egg-info/PKG-INFO\n'}
+[1.619542] (medusa) StdoutLine: {'line': b'writing dependency_links to ../build/medusa/medusa.egg-info/dependency_links.txt\n'}
+[1.619922] (medusa) StdoutLine: {'line': b'writing entry points to ../build/medusa/medusa.egg-info/entry_points.txt\n'}
+[1.620159] (medusa) StdoutLine: {'line': b'writing requirements to ../build/medusa/medusa.egg-info/requires.txt\n'}
+[1.620348] (medusa) StdoutLine: {'line': b'writing top-level names to ../build/medusa/medusa.egg-info/top_level.txt\n'}
+[1.620700] (medusa) StdoutLine: {'line': b"writing manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'\n"}
+[1.625227] (medusa) StdoutLine: {'line': b"reading manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'\n"}
+[1.626384] (medusa) StdoutLine: {'line': b"writing manifest file '../build/medusa/medusa.egg-info/SOURCES.txt'\n"}
+[1.626762] (medusa) StdoutLine: {'line': b'running build\n'}
+[1.626930] (medusa) StdoutLine: {'line': b'running build_py\n'}
+[1.627307] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/build/medusa/build\n'}
+[1.627628] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/build/medusa/build/lib\n'}
+[1.627975] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.628197] (medusa) StdoutLine: {'line': b'copying medusa/esp32_imu_bridge.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.642128] (medusa) StdoutLine: {'line': b'copying medusa/mando.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.642866] (medusa) StdoutLine: {'line': b'copying medusa/control.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.643049] (-) TimerEvent: {}
+[1.643686] (medusa) StdoutLine: {'line': b'copying medusa/gui.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.644728] (medusa) StdoutLine: {'line': b'copying medusa/__init__.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.645058] (medusa) StdoutLine: {'line': b'copying medusa/serial_IMU.py -> /home/everd/faberws/src/build/medusa/build/lib/medusa\n'}
+[1.645888] (medusa) StdoutLine: {'line': b'running install\n'}
+[1.646554] (medusa) StdoutLine: {'line': b'running install_lib\n'}
+[1.647985] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.648740] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/esp32_imu_bridge.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.648905] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/mando.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.652222] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/control.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.652424] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/gui.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.652573] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/__init__.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.652755] (medusa) StdoutLine: {'line': b'copying /home/everd/faberws/src/build/medusa/build/lib/medusa/serial_IMU.py -> /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa\n'}
+[1.652931] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/esp32_imu_bridge.py to esp32_imu_bridge.cpython-310.pyc\n'}
+[1.654787] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/mando.py to mando.cpython-310.pyc\n'}
+[1.656633] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/control.py to control.cpython-310.pyc\n'}
+[1.657763] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/gui.py to gui.cpython-310.pyc\n'}
+[1.658803] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/__init__.py to __init__.cpython-310.pyc\n'}
+[1.659116] (medusa) StdoutLine: {'line': b'byte-compiling /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa/serial_IMU.py to serial_IMU.cpython-310.pyc\n'}
+[1.659802] (medusa) StdoutLine: {'line': b'running install_data\n'}
+[1.660064] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/ament_index\n'}
+[1.660310] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/ament_index/resource_index\n'}
+[1.660441] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/ament_index/resource_index/packages\n'}
+[1.660677] (medusa) StdoutLine: {'line': b'copying resource/medusa -> /home/everd/faberws/src/install/medusa/share/ament_index/resource_index/packages\n'}
+[1.660886] (medusa) StdoutLine: {'line': b'copying package.xml -> /home/everd/faberws/src/install/medusa/share/medusa\n'}
+[1.661050] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/medusa/launch\n'}
+[1.661235] (medusa) StdoutLine: {'line': b'copying launch/rviz.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch\n'}
+[1.661703] (medusa) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch\n'}
+[1.662563] (medusa) StdoutLine: {'line': b'copying launch/view.launch.py -> /home/everd/faberws/src/install/medusa/share/medusa/launch\n'}
+[1.663197] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.663582] (medusa) StdoutLine: {'line': b'copying meshes/vari6_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.664072] (medusa) StdoutLine: {'line': b'copying meshes/var3_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.664714] (medusa) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.668024] (medusa) StdoutLine: {'line': b'copying meshes/vari3_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.668821] (medusa) StdoutLine: {'line': b'copying meshes/var7_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.669646] (medusa) StdoutLine: {'line': b'copying meshes/vari8_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.670403] (medusa) StdoutLine: {'line': b'copying meshes/vari2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.671079] (medusa) StdoutLine: {'line': b'copying meshes/var6_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.671796] (medusa) StdoutLine: {'line': b'copying meshes/vari5_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.672577] (medusa) StdoutLine: {'line': b'copying meshes/var2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.673325] (medusa) StdoutLine: {'line': b'copying meshes/vari7_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.674118] (medusa) StdoutLine: {'line': b'copying meshes/des2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.675943] (medusa) StdoutLine: {'line': b'copying meshes/var8_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.676581] (medusa) StdoutLine: {'line': b'copying meshes/var1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.677211] (medusa) StdoutLine: {'line': b'copying meshes/pan_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.679213] (medusa) StdoutLine: {'line': b'copying meshes/var4_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.679992] (medusa) StdoutLine: {'line': b'copying meshes/tilt_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.681958] (medusa) StdoutLine: {'line': b'copying meshes/var5_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.682752] (medusa) StdoutLine: {'line': b'copying meshes/des1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.684524] (medusa) StdoutLine: {'line': b'copying meshes/motor_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.685598] (medusa) StdoutLine: {'line': b'copying meshes/vari4_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.686301] (medusa) StdoutLine: {'line': b'copying meshes/vari1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.687067] (medusa) StdoutLine: {'line': b'copying meshes/trans2_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.692716] (medusa) StdoutLine: {'line': b'copying meshes/trans1_Link.STL -> /home/everd/faberws/src/install/medusa/share/medusa/meshes\n'}
+[1.698392] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/medusa/urdf\n'}
+[1.698839] (medusa) StdoutLine: {'line': b'copying urdf/control_gazebo.xacro -> /home/everd/faberws/src/install/medusa/share/medusa/urdf\n'}
+[1.699322] (medusa) StdoutLine: {'line': b'copying urdf/Medusa_Final_2027.csv -> /home/everd/faberws/src/install/medusa/share/medusa/urdf\n'}
+[1.699977] (medusa) StdoutLine: {'line': b'copying urdf/Medusa.urdf -> /home/everd/faberws/src/install/medusa/share/medusa/urdf\n'}
+[1.700860] (medusa) StdoutLine: {'line': b'copying urdf/medusa.xacro -> /home/everd/faberws/src/install/medusa/share/medusa/urdf\n'}
+[1.702128] (medusa) StdoutLine: {'line': b'creating /home/everd/faberws/src/install/medusa/share/medusa/config\n'}
+[1.702462] (medusa) StdoutLine: {'line': b'copying config/controller.yaml -> /home/everd/faberws/src/install/medusa/share/medusa/config\n'}
+[1.702860] (medusa) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.705987] (medusa) StdoutLine: {'line': b'Copying ../build/medusa/medusa.egg-info to /home/everd/faberws/src/install/medusa/lib/python3.10/site-packages/medusa-0.0.0-py3.10.egg-info\n'}
+[1.707492] (medusa) StdoutLine: {'line': b'running install_scripts\n'}
+[1.741304] (medusa) StdoutLine: {'line': b'Installing control script to /home/everd/faberws/src/install/medusa/lib/medusa\n'}
+[1.741875] (medusa) StdoutLine: {'line': b'Installing esp32_imu_bridge script to /home/everd/faberws/src/install/medusa/lib/medusa\n'}
+[1.742119] (medusa) StdoutLine: {'line': b'Installing gui script to /home/everd/faberws/src/install/medusa/lib/medusa\n'}
+[1.742257] (medusa) StdoutLine: {'line': b'Installing mando script to /home/everd/faberws/src/install/medusa/lib/medusa\n'}
+[1.742371] (medusa) StdoutLine: {'line': b'Installing serial_IMU script to /home/everd/faberws/src/install/medusa/lib/medusa\n'}
+[1.742727] (medusa) StdoutLine: {'line': b"writing list of installed files to '/home/everd/faberws/src/build/medusa/install.log'\n"}
+[1.743608] (-) TimerEvent: {}
+[1.779162] (medusa) CommandEnded: {'returncode': 0}
+[1.796283] (medusa) JobEnded: {'identifier': 'medusa', 'rc': 0}
+[1.797363] (-) EventReactorShutdown: {}

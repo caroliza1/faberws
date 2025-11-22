@@ -1,0 +1,20 @@
+[1.409s] Invoking command in '/home/everd/faberws/src/interface': PYTHONPATH=/home/everd/faberws/build/interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/install/interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/interface build --build-base /home/everd/faberws/build/interface/build install --record /home/everd/faberws/build/interface/install.log --single-version-externally-managed install_data
+[1.798s] running egg_info
+[1.798s] writing ../../build/interface/interface.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/interface/interface.egg-info/dependency_links.txt
+[1.799s] writing entry points to ../../build/interface/interface.egg-info/entry_points.txt
+[1.799s] writing requirements to ../../build/interface/interface.egg-info/requires.txt
+[1.800s] writing top-level names to ../../build/interface/interface.egg-info/top_level.txt
+[1.802s] reading manifest file '../../build/interface/interface.egg-info/SOURCES.txt'
+[1.803s] writing manifest file '../../build/interface/interface.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] running install
+[1.805s] running install_lib
+[1.806s] running install_data
+[1.806s] running install_egg_info
+[1.809s] removing '/home/everd/faberws/install/interface/lib/python3.10/site-packages/interface-0.0.0-py3.10.egg-info' (and everything under it)
+[1.809s] Copying ../../build/interface/interface.egg-info to /home/everd/faberws/install/interface/lib/python3.10/site-packages/interface-0.0.0-py3.10.egg-info
+[1.810s] running install_scripts
+[1.840s] writing list of installed files to '/home/everd/faberws/build/interface/install.log'
+[1.879s] Invoked command in '/home/everd/faberws/src/interface' returned '0': PYTHONPATH=/home/everd/faberws/build/interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/everd/faberws/install/interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/interface build --build-base /home/everd/faberws/build/interface/build install --record /home/everd/faberws/build/interface/install.log --single-version-externally-managed install_data
